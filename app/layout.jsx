@@ -2,7 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import Sidebar from "@/components/navigation/Sidebar";
 // import Player from "@/components/player/Player";
-import { MusicContextProvider } from "./hooks/useMusic";
+import { MusicContextProvider } from "@/hooks/useMusic";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

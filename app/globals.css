@@ -178,7 +178,7 @@ main > .top-artists-container ul,
   background: #0e1a41;
 }
 .track-list-item img {
-  @apply w-[3em] rounded-[50%];
+  @apply w-[3em] rounded-[20%];
 }
 .track-list-item .song-details {
   @apply flex flex-1 gap-[2em] items-center;
@@ -193,7 +193,7 @@ main > .top-artists-container ul,
   @apply flex gap-[0.6em] flex-col items-center text-center;
 }
 .card-container a img {
-  @apply w-[6.5em] h-[6.5em] rounded-[50%];
+  @apply w-[6.5em] h-[6.5em] rounded-[20%];
 }
 .card-container strong {
   @apply max-w-[18ch] w-max overflow-hidden text-ellipsis whitespace-nowrap;
@@ -236,7 +236,7 @@ small,
   @apply flex gap-[2em];
 }
 .playlist-item img {
-  @apply h-[5em] w-[5em] rounded-[50%];
+  @apply h-[5em] w-[5em] rounded-[20%];
 }
 .playlist-item .playlist-details {
   @apply flex flex-col w-max max-w-[8em];
@@ -272,7 +272,7 @@ small,
   @apply flex items-center gap-[2em];
 }
 .intro-container img {
-  @apply w-[10em] h-[10em] rounded-[50%];
+  @apply w-[10em] h-[10em] rounded-[20%];
 }
 .intro-container .intro-details {
   @apply flex flex-col gap-[0.25em];
