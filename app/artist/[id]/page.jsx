@@ -38,7 +38,7 @@ const ArtistPage = async ({ params: { id } }) => {
                                 key={ id }
                                 title={ title }
                                 imgSrc= { cover_medium }
-                                href={ `/album/${ id }` }
+                                href={ `#` }
                                 description={ `Album | ${ releaseYear }` }
                             />
                         )

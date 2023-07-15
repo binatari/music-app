@@ -1,7 +1,8 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
-import { formatDuration } from '@/utils/formatters';;
+import { formatDuration } from '@/utils/formatters';
+;
 
 const TrackListItem = ({ index, playlist, track: { id, title, duration, artist, album, type } }) => {
 
@@ -10,7 +11,6 @@ const TrackListItem = ({ index, playlist, track: { id, title, duration, artist, 
     return (
         <li
             className='track-list-item'
-            onClick={ () =>{}}
         >
             <img src={ album.cover_medium } alt="" />
 

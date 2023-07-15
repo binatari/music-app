@@ -1,7 +1,11 @@
 "use client";
 import React from "react";
 import TextTransition, { presets } from "react-text-transition";
-import HeaderArtistsContainer from "../others/HeaderArtistsContainer";
+
+/**
+ * @param {HTMLElement} children - Children passed into the header, most likely server components .
+ */
+
 const Hero = ({children}) => {
   const [index, setIndex] = React.useState(0);
 
@@ -17,7 +21,6 @@ const Hero = ({children}) => {
   const TEXTS = ["Unlimited playlists", "Amazing sound", "Share your beats"];
   return (
     <div className="hero-container min-h-[80vh] w-full py-6  px-4 relative rounded-3xl ">
-      {/* <img src='/images/portrait_disco_woman.png' className='w-full h-full object-cover absolute top-0 left-0'/> */}
       <div className="container mx-auto bg-transparent z-20 relative">
         <h1 className="font-medium rubik text-[45px] leading-[60px] md:text-[95px] md:leading-[104px] text-clips switching-text">
           <span className="text-[35px] leading-[50px] md:text-[59px]  md:leading-[80px] font-medium block text-clips small-header">

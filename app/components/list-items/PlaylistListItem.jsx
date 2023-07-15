@@ -5,7 +5,7 @@ const PlaylistListItem = ({ id, title, imgSrc, creationDate }) => {
     const createdYear = getYearFromDate(creationDate);
 
     return (
-        <li className='playlist-item' >
+        <li className='playlist-item'>
 
                 <img src={ imgSrc } alt='playlist-img' />
 

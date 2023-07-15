@@ -10,6 +10,7 @@ export default async function Home() {
 
   return (
     <div>
+      {/* Passing a server component to the client component as a child to improve performance */}
     <Hero>
       <HeaderArtistsContainer/>
     </Hero>
