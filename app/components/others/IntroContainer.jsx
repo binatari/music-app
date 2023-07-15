@@ -1,6 +1,5 @@
 'use client';
 import { FaPlay } from 'react-icons/fa';
-import FavoriteButton from './FavoriteButton';
 
 
 const IntroContainer = ({ id, imgSrc, title, description, playlist, type }) => {
@@ -23,7 +22,6 @@ const IntroContainer = ({ id, imgSrc, title, description, playlist, type }) => {
                         <span>Play</span>
                     </button>
 
-                    <FavoriteButton type={ type } id={ id } />
                 </div>
             </div>
         </div>

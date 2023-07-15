@@ -2,16 +2,15 @@
 import React from 'react';
 import Link from 'next/link';
 import { formatDuration } from '@/utils/formatters';;
-import FavoriteButton from '../others/FavoriteButton';
 
 const TrackListItem = ({ index, playlist, track: { id, title, duration, artist, album, type } }) => {
-    const dispatch = () =>{}
+
     const formattedDuration = formatDuration(duration);
 
     return (
         <li
             className='track-list-item'
-            onClick={ () => dispatch(playSong({index, playlist})) }
+            onClick={ () =>{}}
         >
             <img src={ album.cover_medium } alt="" />
 
@@ -30,7 +29,6 @@ const TrackListItem = ({ index, playlist, track: { id, title, duration, artist, 
 
                 <span>{ formattedDuration }</span>
                 
-                <FavoriteButton id={ id } type={ type } />
             </div>
         </li>
     );

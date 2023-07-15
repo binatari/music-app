@@ -20,12 +20,10 @@ export default function RootLayout({ children }) {
           <div className=" py-10">
             <Sidebar />
 
-            <div className="main-container px-[30px] flex-grow pl-[150px] pt-20 md:pt-0">
+            <div className="main-container px-[20px] pl-10 md:px-[30px] flex-grow md:pl-[150px]  pt-0">
 
               <main>{children}</main>
             </div>
-
-            {/* <Player /> */}
           </div>
         </body>
       </MusicContextProvider>

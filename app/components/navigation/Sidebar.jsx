@@ -6,53 +6,50 @@ import Link from 'next/link';
 
 const Sidebar = () => {
     return (
-        <div className='min-h-screen w-[100px] transition-[margin-left] ease-in-out duration-500 fixed top-0 bottom-0 left-0 z-40 flex pt-[2.5em] pb-[2.5em] flex-col justify-center pr-[2.25vw] px-0 rounded-bl-[2em]'>
-            <Link className='app-logo' href='/' >
-                {/* <GiMusicSpell /> */}
-                <span>Music App</span>
-            </Link>
+        <div className='min-h-screen  md:w-[140px] transition-[margin-left] ease-in-out duration-500 fixed top-0 bottom-0 left-0 z-40 flex pt-[2.5em] pb-[2.5em] flex-col justify-center pr-[2.25vw] px-0 rounded-bl-[2em]'>
+
 
             <div>
-                <h2 className='pl-[1.7em] text-yellow'>DISCOVER</h2>
+                <h2 className='pl-[1.7em] text-mainpink hidden md:block'>DISCOVER</h2>
 
-                <ul className=''>
+                <ul className='flex flex-col items-center md:block'>
                     <li>
                         <NavLink slug=''>
-                            <FiHome className='hover:text-yellow'/>
-                            <span>Home</span>
+                            <FiHome className='hover:text-mainpink'/>
+                            <span className='hidden md:block'>Home</span>
                         </NavLink>
                     </li>
 
                     <li>
-                        <NavLink slug='top_tracks'>
-                            <FiMusic className='hover:text-yellow' />
-                            <span>Songs</span>
+                        <NavLink slug='#'>
+                            <FiMusic className='hover:text-mainpink' />
+                            <span className='hidden md:block'>Songs</span>
                         </NavLink>
                     </li>
 
                     <li>
-                        <NavLink slug='top_artists'>
-                            <FiUsers className='hover:text-yellow' />
-                            <span>Artists</span>
+                        <NavLink slug='#'>
+                            <FiUsers className='hover:text-mainpink' />
+                            <span className='hidden md:block'>Artists</span>
                         </NavLink>
                     </li>
 
                     <li>
-                        <NavLink slug='radio'>
-                            <FiRadio className='hover:text-yellow'/>
-                            <span>Radio</span>
+                        <NavLink slug='#'>
+                            <FiRadio className='hover:text-mainpink'/>
+                            <span className='hidden md:block'>Radio</span>
                         </NavLink>
                     </li>
                 </ul>
             </div>
 
             <div>
-                <h2 className='pl-[1.7em] text-yellow'>LIBRARY</h2>
+                <h2 className='pl-[1.7em] text-mainpink hidden md:block'>LIBRARY</h2>
                 <ul>
                     <li>
-                        <NavLink slug='favorites'>
-                            <FiHeart className='hover:text-yellow' />
-                            <span>Favorites</span>
+                        <NavLink slug='#'>
+                            <FiHeart className='hover:text-mainpink' />
+                            <span className='hidden md:block'>Favorites</span>
                         </NavLink>
                     </li>
                 </ul>

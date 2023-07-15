@@ -5,15 +5,15 @@ const PlaylistListItem = ({ id, title, imgSrc, creationDate }) => {
     const createdYear = getYearFromDate(creationDate);
 
     return (
-        <li className='playlist-item'>
-            <Link href={ `playlist/${ id }` }>
+        <li className='playlist-item' >
+
                 <img src={ imgSrc } alt='playlist-img' />
 
                 <div className='playlist-details'>
                     <strong>{ title }</strong>
                     <small>{ createdYear }</small>
                 </div>
-            </Link>
+
         </li>
     );
 };

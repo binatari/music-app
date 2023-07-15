@@ -14,7 +14,8 @@ module.exports = {
       },
       colors: {
         yellow:"#ecd444",
-        offwhite:'#fafafe'
+        offwhite:'#fafafe',
+        mainpink:"rgb(205, 25, 179)"
       },
     },
   

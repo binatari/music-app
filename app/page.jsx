@@ -11,10 +11,10 @@ export default async function Home() {
     <div>
     <Hero/>
   <div className="flex justify-between flex-wrap mt-10">
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <TrackListContainer header="Trending right now" tracks={tracks} />
       </div>
-      <div className="w-1/2">
+      <div className="w-full md:w-1/2">
         <TopArtistsContainer limit={3} />
         <Playlists />
       </div>

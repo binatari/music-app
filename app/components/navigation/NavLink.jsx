@@ -7,7 +7,7 @@ const NavLink = ({ slug, children }) => {
     const isActive = segment === slug;
 
     return (
-        <Link href={ `/${ slug }` } className={ `hover:text-yellow active:text-yellow text-[1em] text-[#fafafe] flex pl-[1.7em] items-center gap-[1ch] bg-no-repeat transition-[background-position] duration-[0.4s] ease-[ease-in-out] pr-0 py-[1em] ${isActive ? 'active' : ''}` }>
+        <Link href={ `/${ slug }` } className={ `hover:text-mainpink active:text-mainpink text-[1em] text-[#fafafe] flex pl-[1.7em] items-center gap-[1ch] bg-no-repeat transition-[background-position] duration-[0.4s] ease-[ease-in-out] pr-0 py-[1em] ${isActive ? 'active' : ''}` }>
             { children }
         </Link>
     );
