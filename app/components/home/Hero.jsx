@@ -20,8 +20,8 @@ const Hero = ({children}) => {
 
   const TEXTS = ["Unlimited playlists", "Amazing sound", "Share your beats"];
   return (
-    <div className="hero-container min-h-[80vh] w-full py-6  px-4 relative rounded-3xl ">
-      <div className="container mx-auto bg-transparent z-20 relative">
+    <div className="hero-container w-full py-6  px-4 relative rounded-3xl ">
+      <div className="md:px-5 bg-transparent z-20 relative">
         <h1 className="font-medium rubik text-[45px] leading-[60px] md:text-[95px] md:leading-[104px] text-clips switching-text">
           <span className="text-[35px] leading-[50px] md:text-[59px]  md:leading-[80px] font-medium block text-clips small-header">
             Feel the sound
